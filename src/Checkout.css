@@ -1,0 +1,45 @@
+.header {
+    width: 80%;
+    height: 60px;
+    background-color: black;
+    margin: 20px auto;
+}
+.header__container {
+    border: 1px aqua solid;
+    padding: 10px;
+}
+.header__title {
+    font-family: "Texturina";
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.header__title > span:hover {
+    color: black;
+    background-color: aqua;
+}
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    font-family: "Texturina";
+    font-size: 26px;
+}
+.header__home {
+    color: aqua;
+}
+.checkout__right {
+    margin-left: -460px;
+}

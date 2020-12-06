@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.home__row {
+    display: flex;
+    margin: 0 5px;
+}

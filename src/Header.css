@@ -1,0 +1,74 @@
+.header {
+    width: 80%;
+    height: 60px;
+    background-color: black;
+    margin: 20px auto;
+}
+.header__container {
+    border: 1px aqua solid;
+    padding: 10px;
+}
+.header__title {
+    font-family: "Texturina";
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    text-decoration: none;
+}
+.header__home {
+    text-decoration: none;
+    color: aqua;
+}
+.header__title > span:hover {
+    color: black;
+    background-color: aqua;
+}
+.header__image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.header__imageMiddle > h1 {
+    font-family: "Texturina";
+    text-align: center;
+}
+.header__imageLeft > img {
+    width: 200px;
+    height: 200px;
+}
+.header__imageRight > img {
+    width: 200px;
+    height: 200px;
+}
+.header__text {
+    margin-top: 20px;
+}
+.header__introText > p {
+    font-family: "Nerko One";
+    font-size: 40px;
+    color: aqua;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.header__products {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: "Texturina";
+    font-size: 26px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+}
+.checkout__cart {
+    text-decoration: none;  /* ////////// */
+    color: aqua;
+}
+.header__signin {
+    color: aqua;
+}
