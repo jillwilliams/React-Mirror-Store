@@ -1,5 +1,5 @@
 .header {
-    width: 80%;
+    width: 90%;
     height: 60px;
     background-color: black;
     margin: 20px auto;
@@ -19,6 +19,9 @@
 .header__home {
     text-decoration: none;
     color: aqua;
+}
+.header__title a {
+    text-decoration: none;
 }
 .header__title > span:hover {
     color: black;
@@ -62,8 +65,8 @@
     padding: 10px;
     font-family: "Texturina";
     font-size: 26px;
-    border: 1px aqua solid;
-    outline: 1px black solid;
+    border: 1px aqua solid; 
+    outline: 1px black solid; 
 }
 .checkout__cart {
     text-decoration: none;  /* ////////// */
@@ -71,4 +74,14 @@
 }
 .header__signin {
     color: aqua;
+}
+.header__product {
+    color: aqua;
+}
+.header__contact {
+    color: aqua;
+}
+.header__orders {
+    color: aqua;
+    text-decoration: none;
 }

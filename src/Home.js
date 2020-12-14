@@ -12,11 +12,10 @@ function Home() {
     return (
         <div className="home">
             <div className="home__container">
-                {/* <img src={} alt="" /> */}
                 <div className="home__row">
                     <Product 
                         title="Freedom Isn't Free"
-                        price={125}
+                        price={1}
                         description="12-inch mirror"
                         image={Freedom}
                         id="100" />

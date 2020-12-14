@@ -1,7 +1,9 @@
 import firebase from 'firebase';
 
-var firebaseConfig = {
-    apiKey: "process.env.REACT_APP_FIREBASE_KEY",
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyC3bM1Y_wWxG48lENIBNMDxF1nK06xsbyc",
     authDomain: "store-mirror.firebaseapp.com",
     databaseURL: "https://store-mirror.firebaseio.com",
     projectId: "store-mirror",

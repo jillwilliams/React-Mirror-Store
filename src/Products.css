@@ -1,0 +1,57 @@
+p {
+    margin: 20px;
+}
+.products {
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    width: 90%;
+    margin: 20px auto;
+}
+.products__pricing > p {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: aqua;
+    padding: 10px 40px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    font-size: 24px;
+    margin: 20px 25%;
+    align-items: center;
+}
+.products__description > p {
+    font-family: "Texturina";
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: aqua;
+    text-shadow: 2px 2px 1px black;
+    margin: 10px 30px;
+    text-align: justify;
+}
+.products__sizing > p {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: aqua;
+    padding: 10px 40px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    font-size: 24px;
+    margin: 20px 25%;
+    align-items: center;
+}
+.products__finish > p {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: aqua;
+    padding: 10px 40px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    font-size: 24px;
+    margin: 20px 25%;
+    align-items: center;
+}

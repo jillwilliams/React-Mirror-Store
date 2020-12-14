@@ -1,0 +1,24 @@
+.header__text {
+    margin-top: 20px;
+}
+.header__introText > p {
+    font-family: "Nerko One";
+    font-size: 40px;
+    color: aqua;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.header__products {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: "Texturina";
+    font-size: 26px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+}

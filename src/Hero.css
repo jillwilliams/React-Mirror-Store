@@ -1,0 +1,17 @@
+.header__image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.header__imageMiddle > h1 {
+    font-family: "Texturina";
+    text-align: center;
+}
+.header__imageLeft > img {
+    width: 200px;
+    height: 200px;
+}
+.header__imageRight > img {
+    width: 200px;
+    height: 200px;
+}

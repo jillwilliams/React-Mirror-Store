@@ -1,0 +1,79 @@
+.payment__container > h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid lightgray;
+}
+.payment__container > h2 a {
+    text-decoration: none;
+}
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.payment__title {
+    flex: 0.3;
+}
+.payment__address, .payment__items {
+    flex: 0.7;
+}
+.payment__details {
+    flex: 0.7;
+    font-size: 26px;
+    color: black;
+}
+.payment__submitButton {
+    background-color: black;
+    color: aqua;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    border-radius: 2px;
+    font-family: "Texturina";
+    font-size: 24px;
+    padding: 5px 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.payment__priceContainer > h3 {
+    margin-top: 10px;
+}
+.payment__link a {
+    color: aqua;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px black;;
+}
+.payment__details > form {
+    max-width: 400px;
+}
+.payment__details > h3 {
+    padding-bottom: 20px;
+}
+.payment__addressInput {
+    width: 400px;
+    height: 40px;
+    font-family: "Texturina";
+    font-size: 20px;
+    border: 1px solid aqua;
+    outline: 1px solid black;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: black;
+    text-align: left;
+    align-items: center;
+}
+.payment__addressInput2 {
+    width: 400px;
+    height: 40px;
+    font-family: "Texturina";
+    font-size: 20px;
+    border: 1px solid aqua;
+    outline: 1px solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: black;
+    text-align: left;
+    align-items: center;
+}
